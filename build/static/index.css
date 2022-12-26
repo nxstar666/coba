@@ -1,0 +1,212 @@
+body {
+    font-family: charis sil;
+  }
+  /* jumbotron */
+  .jumbotron .container {
+    position: relative;
+    z-index: 3;
+  }
+  .jumbotron {
+    background-image: url(../static/logo\ besar.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 540px;
+    position: relative;
+    text-shadow: 1px 1px black;
+  }
+  #layanan {
+    background-image: url(../static/layananjumbotron.jpg);
+  }
+  #pendaftaran {
+    background-image: url(../static/pendaftaranjumbotron.jpg);
+  }
+  #artikel {
+    background-image: url(../static/artikeljumbotron.jpg);
+  }
+  .jumbotron a {
+    background-color: #eec4ea;
+  }
+  .jumbotron::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+  #layanan h1,
+  #pendaftaran h1,
+  #artikel h1 {
+    text-shadow: 3px 3px black;
+    z-index: 4;
+    padding-top: 22%;
+  }
+  /* tentang */
+  .tentang,
+  .quotes {
+    background-color: #eec4ea;
+  }
+  .ua .atu {
+    background-color: rgb(158, 77, 154);
+    border-radius: 7px;
+  }
+  .ua svg {
+    width: 40px;
+    height: 23px;
+  }
+  /* layanan */
+  .layanan h2 {
+    margin: -5% auto 3%;
+  }
+  .layanan .card {
+    background-color: #eec4ea;
+  }
+  .beer {
+    display: none;
+  }
+  .pelayanan .plynan {
+    background-color: #eec4ea;
+  }
+  /* quotes */
+  .tanda {
+    font-family: dancing script;
+    font-size: xx-large;
+  }
+  .dempet,
+  .dmpet {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* team */
+  .team h2 {
+    margin: -5% auto 3%;
+  }
+  .team .card-body {
+    background-color: #eec4ea;
+  }
+  /* daftar */
+  .daftar {
+    background-color: #eec4ea;
+  }
+  .daftar h2 {
+    margin: 0 auto 3%;
+  }
+  .daftar a {
+    width: 200px;
+  }
+  .pendaftarann .purple,
+  .tanya {
+    background-color: #eec4ea;
+  }
+  .pendaftarann .ungu a,
+  .pendaftarann .ugnu a {
+    width: 100%;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+  }
+  .pendaftarann .ungu a {
+    background-color: #9e4d9a;
+  }
+  .pendaftarann .ugnu a {
+    background-color: #894288;
+  }
+  .tanya .unggu a {
+    width: 100%;
+    text-shadow: 2px 2px white;
+    font-size: 20px;
+  }
+  /* artikel */
+  .artikel .card-body {
+    background-color: #eec4ea;
+  }
+  /* sub artikel */
+  .main .gambar {
+    display: block;
+    height: 400px;
+  }
+  .main h4 {
+    color: #ca78c2;
+  }
+  a {
+    text-decoration: none;
+  }
+  .main a:hover {
+    color: #ca78c2;
+  }
+  .deket {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* footer */
+  footer .cpy a {
+    text-decoration: none;
+  }
+  
+  /* RESPONSIVE BREAKPOINT */
+  @media (max-width: 991px) {
+    .layanan .trkhir {
+      margin: 30px 0;
+    }
+    .hapus {
+      display: none;
+    }
+    .tanda {
+      padding-bottom: 150px;
+    }
+    .dempet {
+      margin: 0 auto;
+      width: 90%;
+    }
+    .dmpet img {
+      margin: -20% auto 0;
+      width: 75%;
+    }
+    .team .card {
+      width: 75% !important;
+    }
+    .plynanhapus {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .jumbotron h5,
+    h3 {
+      text-align: center;
+    }
+    .jumbotron h5 {
+      padding-top: 200px !important;
+    }
+    .hidejumbotron {
+      display: none;
+    }
+    .beer {
+        display: block;
+    }
+    .team .card {
+      width: 90% !important;
+    }
+    #layanan,
+    #pendaftaran,
+    #artikel {
+      height: 250px;
+    }
+    .main .gambar {
+      height: 300px;
+    }
+  }
+  @media (max-width: 600px) {
+    .layanan .card-title {
+      font-size: 17px;
+    }
+    .dmpet {
+      margin-top: -65px;
+    }
+    .main .gambar {
+      height: 250px;
+    }
+    footer .cpy {
+      font-size: 13px;
+    }
+  }
